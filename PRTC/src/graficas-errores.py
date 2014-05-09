@@ -3,10 +3,10 @@ import timeit
 import modulo
 import matplotlib.pyplot as pl
 pi=3.1415926535897931159979634685441852
-start=time.time()
+start=time.time()#Definimos los distintos valores para y, definidos para la grafica
 l=[]
 e=[]
-def error(nro_intervalos,nro_test,umbral):
+def error(nro_intervalos,nro_test,umbral):#Para los porcentajes.
   fallos=0
   for i in range (nro_test):
     s=modulo.aproxpi(nro_intervalos)
