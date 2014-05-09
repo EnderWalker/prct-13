@@ -16,7 +16,7 @@ def aproxpi(fin):
       suma+=fxi
     aprox=suma/fin
   return aprox
-  
+#Comprovaciones de la función
 if __name__=="__main__":
    if (len(sys.argv)==3):
     p1=int(sys.argv[1])

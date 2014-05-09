@@ -22,7 +22,7 @@ if __name__=="__main__":
     p1=int(sys.argv[1])
     p2=int(sys.argv[2])
    else:
-    print "En esta función se usaran los valores 10 y 10. Dentro de la función usted deverá introducir los números"
+    print "En esta función se usaran los valores 10 y 10. Dentro de la función usted deberá introducir los números"
     p1=10
     p2=10
    l=[]
